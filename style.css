@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&subset=cyrillic');
 
-* {
+html {
   background-color: #a9bdb3;
 }
 
 .navbar-text {
   font-family: 'Pacifico', cursive;
-  background-color: transparent;
   color: #d6e9f2
-
 }
