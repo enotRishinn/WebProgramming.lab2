@@ -15,11 +15,17 @@ li:hover {
   background-color: rgba(99, 112, 122, 0.6);
 }
 
-@media screen and (min-width: 600px) {
+.container p{
+  font-family: 'Pacifico', sans-serif;
+}
+
 .navbar-text {
   font-family: 'Pacifico', sans-serif;
   color: #d6e9f2;
 }
+
+@media screen and (min-width: 600px) {
+
 
 .navbar-nav li {
   text-indent: 2%;
@@ -56,8 +62,6 @@ li:hover {
 
 @media screen and (max-width: 600px) {
 .navbar-text {
-  font-family: 'Pacifico', sans-serif;
-  color: #d6e9f2;
   font-size: 1.3em;
 }
 
