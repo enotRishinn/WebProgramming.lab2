@@ -6,5 +6,14 @@ html {
 
 .navbar-text {
   font-family: 'Pacifico', cursive;
-  color: #d6e9f2
+  color: #d6e9f2;
+}
+
+.nav-link {
+  color: #000000;
+  text-indent: 2%;
+}
+
+li:hover {
+  background-color: #63707A;
 }
