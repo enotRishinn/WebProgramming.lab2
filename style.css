@@ -11,6 +11,10 @@ hr {
   border-color: #000000 !important;
 }
 
+label {
+  color: #ffffff;
+}
+
 li:hover {
   background-color: rgba(99, 112, 122, 0.6);
 }
@@ -25,16 +29,20 @@ li:hover {
   color: #d6e9f2;
 }
 
-.square {
-  background-color: rgba(99, 112, 122, 0.6);
+.square, .form {
+  background-color: rgba(99, 112, 122, 0.6) ;
   text-align: center;
 }
 
-.square button {
+.form .p-5 {
+  background-color: rgba(50, 48, 55, 0.6);
+}
+
+.square button, .jumbotron button, .form button {
   background: #343A40;
   display: block;
   margin: auto;
-  font-family: 'Pacifico', sans-serif;
+  font-family: sans-serif;
 }
 
 
@@ -64,8 +72,9 @@ li:hover {
   padding: 5%;
 }
 
-.square {
+.square, .form {
   margin: 5%;
+  padding: 2%;
 }
 
 .lead {
@@ -82,6 +91,9 @@ li:hover {
 
 }
 
+.form .p-5 {
+  margin: 5%;
+}
 
 }
 
@@ -114,8 +126,9 @@ li:hover {
   padding: 3%;
 }
 
-.square {
+.square, .form {
   margin: 3%;
+  padding: 3%;
 }
 
 .jumbotron h1 {
@@ -139,5 +152,9 @@ li:hover {
   width: 95%;
   margin: 3%, 3%, 3%, 3%;
   font-size: 1.2em;
+}
+
+.form .p-5 {
+  margin: 3%;
 }
 }
