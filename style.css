@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&subset=cyrillic');
 
 body {
-  background-image: url(img/background.jpg)  !important;
-  background-attachment: fixed  !important;
-  background-size: cover  !important;
+  background-image: url(img/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 hr {
@@ -47,13 +47,12 @@ li:hover {
 
 
 @media screen and (min-width: 600px) {
-.navbar-text {
-  font-size: 15em;
-}
+
 
 .navbar-nav li {
   text-indent: 2%;
 }
+
 
 .navbar-brand img {
   width: 120px;
@@ -101,7 +100,7 @@ li:hover {
 
 @media screen and (max-width: 600px) {
 .navbar-text {
-  font-size: 15em;
+  font-size: 1.3em;
 }
 
 .navbar-nav li {
@@ -109,8 +108,8 @@ li:hover {
 }
 
 .navbar-brand img {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
 }
 
 .nav-link {
