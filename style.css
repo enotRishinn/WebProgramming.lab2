@@ -47,7 +47,9 @@ li:hover {
 
 
 @media screen and (min-width: 600px) {
-
+.navbar-text {
+  font-size: 15em;
+}
 
 .navbar-nav li {
   text-indent: 2%;
