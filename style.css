@@ -15,9 +15,6 @@ li:hover {
   background-color: rgba(99, 112, 122, 0.6);
 }
 
-.displau-4{
-  text-align: center;
-}
 
 .container p, .display-4{
   font-family: 'Pacifico', sans-serif;
@@ -27,6 +24,19 @@ li:hover {
   font-family: 'Pacifico', sans-serif;
   color: #d6e9f2;
 }
+
+.square {
+  background-color: rgba(99, 112, 122, 0.6);
+  text-align: center;
+}
+
+.square button {
+  background: #343A40;
+  display: block;
+  margin: auto;
+  font-family: 'Pacifico', sans-serif;
+}
+
 
 @media screen and (min-width: 600px) {
 
@@ -54,8 +64,8 @@ li:hover {
   padding: 5%;
 }
 
-.display-4 {
-  text-align: center;
+.square {
+  margin: 5%;
 }
 
 .lead {
@@ -63,16 +73,13 @@ li:hover {
 }
 
 .row img {
-  width: 90%;
-  margin: 5%, 0%, 5%, 5%;
+  width: 100%;
 }
 
 .row p {
-  width: 90%;
-  min-height:60%;
-  margin: 5%, 5%, 5%, 5%;
+  width: 100%;
   font-size: 1.3em;
-  background-color: rgba(116, 130, 140, 0.7);
+
 }
 
 
@@ -107,6 +114,10 @@ li:hover {
   padding: 3%;
 }
 
+.square {
+  margin: 3%;
+}
+
 .jumbotron h1 {
   font-size: 1.7em !important;
 }
@@ -128,6 +139,5 @@ li:hover {
   width: 95%;
   margin: 3%, 3%, 3%, 3%;
   font-size: 1.2em;
-  background-color: rgba(116, 130, 140, 0.7);
 }
 }
